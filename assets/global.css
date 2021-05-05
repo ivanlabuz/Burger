@@ -1,0 +1,79 @@
+@import '../assets/fonts/stylesheet.css';
+@import '../assets/typography.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* scroll-behavior: smooth; */
+}
+
+html {
+  font-family: 'Open Sans', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  cursor: url('~/assets/img/cursor-default.svg'), default;
+  box-sizing: border-box;
+}
+
+
+a {
+  cursor: url('~/assets/img/cursor.svg') 18 0, default !important;
+}
+
+.pointer {
+  cursor: url('~/assets/img/cursor.svg') 18 0, default !important;
+}
+
+.text-cursor {
+  cursor: url('~/assets/img/cursor-text.svg') 18 10, default;
+}
+
+.druk-upper-56-40 {
+  font-family: Druk, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 96%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.padding-for-header {
+  padding-top: 98px;
+}
+
+.font-40 {
+  font-size: 40px !important;
+}
+
+.bt-content {
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 767px) {
+  .druk-upper-56-40 {
+    font-size: 40px;
+    line-height: 96%;
+  }
+  .padding-for-header {
+    padding-top: 91px;
+  }
+}
+
+.content {
+  @apply p-4 md:flex md:flex-col md:items-center;
+}
+
+.content_py-0 {
+  @apply p-0;
+}
+
+.custom-background-image-dots {
+  background-image: url('~/assets/img/background-dots.png');
+}

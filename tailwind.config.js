@@ -1,0 +1,56 @@
+module.exports = {
+  purge: [],
+  darkMode: false,
+  important: true,
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: [
+          'Open Sans',
+          'Source Sans Pro',
+          'Segoe UI',
+          'Helvetica Neue',
+          'Arial',
+        ],
+        druk: [
+          'Druk',
+          'sans-serif',
+          'Source Sans Pro',
+          'Segoe UI',
+          'Helvetica Neue',
+          'Arial',
+        ],
+        'druk-wide': [
+          'Druk Wide',
+          'sans-serif',
+          'Source Sans Pro',
+          'Segoe UI',
+          'Helvetica Neue',
+          'Arial',
+        ],
+      },
+      colors: {
+        'custom-purple': '#AB31FF',
+        'custom-pink': '#FF3D5E',
+        'custom-green': '#00DDA5',
+        'custom-yellow': '#FFEC00',
+        'custom-blue': '#3141EB',
+        'custom-peach': '#FFA589',
+        'custom-gray': '#E6E6DC',
+        'custom-light-green': '#4be0b4',
+        'custom-light-pink': '#FC8CF3',
+        'custom-light-blue': '#68E1FB',
+        'custom-charcoal': '#34323C',
+        'custom-light-purple': '#A582E3',
+        'custom-white': '#FFFFFF',
+        'custom-burgundy': '#870D4F',
+        'custom-midnight-sky': '#0F0F33',
+        'custom-beige': '#E6E6DC',
+      },
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}

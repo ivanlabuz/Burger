@@ -1,0 +1,122 @@
+.h1-heading {
+  font-family: Druk, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 88%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  cursor: url('~/assets/img/cursor-text.svg') 18 10, default;
+}
+
+.h2-heading {
+  font-family: Druk, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 108%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  cursor: url('~/assets/img/cursor-text.svg') 18 10, default;
+}
+
+.h3-heading {
+  font-family: Druk, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 108%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  cursor: url('~/assets/img/cursor-text.svg') 18 10, default;
+}
+
+.h4-heading {
+  font-family: Druk, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 108%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: url('~/assets/img/cursor-text.svg') 18 10, default;
+}
+
+.lead-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  cursor: url('~/assets/img/cursor-text.svg') 18 10, default;
+}
+
+.body {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  cursor: url('~/assets/img/cursor-text.svg') 18 10, default;
+}
+
+.facts-cards {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  cursor: url('~/assets/img/cursor-text.svg') 18 10, default;
+}
+
+.wide-accent {
+  font-family: Druk Wide, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 116%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffec00;
+  text-shadow: 4px 4px 0 #32333d;
+  cursor: url('~/assets/img/cursor-text.svg') 18 10, default;
+}
+
+.numbers {
+  font-family: Druk Wide, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 88px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ffec00;
+  text-shadow: 10px 10px 0 #32333d;
+  cursor: url('~/assets/img/cursor-text.svg') 18 10, default;
+}
+
+@media (max-width: 769px) {
+  .h1-heading {
+    font-size: 88px;
+  }
+  .h2-heading {
+    font-size: 56px;
+  }
+  .h3-heading {
+    font-size: 40px;
+  }
+  .h4-heading {
+    font-size: 28px;
+  }
+  .lead-paragraph {
+    font-size: 18px;
+  }
+  .body {
+    font-size: 18px;
+  }
+  .wide-accent {
+    font-size: 28px;
+  }
+  .numbers {
+    font-size: 80px;
+  }
+}
